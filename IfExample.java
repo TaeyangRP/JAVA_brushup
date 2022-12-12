@@ -14,6 +14,6 @@ public class IfExample {
         } else {
             System.out.println("x가 30 이상이면 출력된다.");
         }
-        System.out.println("gitHub 업로드 연습을 겸한다.");
+        
     }
 }
