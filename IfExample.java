@@ -3,16 +3,13 @@ import javax.sql.rowset.spi.SyncResolver;
 public class IfExample {
 
     public static void main(String[] args) throws Exception {
-        int x = 40;
+        String x = "R'ha";
+        String y = "Persephone";
 
-        if(x<10) {
-            System.out.println("x가 10 미만이면 출력된다.");
-        } else if(x<20) {
-            System.out.println("x가 20 미만이면 출력된다.");
-        } else if(x<30) {
-            System.out.println("x가 30 미만이면 출력된다.");
-        } else {
-            System.out.println("x가 30 이상이면 출력된다.");
+        if (x == "R'ha") {
+            if (y == "Persephone") {
+                System.out.println("R'ha Persephone");
+            }
         }
         
     }
