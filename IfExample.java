@@ -6,10 +6,8 @@ public class IfExample {
         String x = "R'ha";
         String y = "Persephone";
 
-        if (x == "R'ha") {
-            if (y == "Persephone") {
-                System.out.println("R'ha Persephone");
-            }
+        if (x == "R'ha" && y == "Persephone")  {
+            System.out.println("R'ha Persephone");
         }
         
     }
