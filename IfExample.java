@@ -11,11 +11,19 @@ public class IfExample {
  //           System.out.println("R'ha Persephone");
  //       }
 
-        if (x == "R'ha" && y == "Persephone") {
-            if(z == "Hades") {
-                System.out.println("Hades and Persephone");
-            }
+//        if (x == "R'ha" && y == "Persephone") {
+ //           if(z == "Hades") {
+//                System.out.println("Hades and Persephone");
+ //           }
+
+ if (x == "R'ha") {
+    if (y == "Persephone") {
+        if (z == "Hades") {
+            System.out.println("Persephone and Hades");
+        }
+    }
+ }
         }
         
     }
-}
+
