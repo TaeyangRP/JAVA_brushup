@@ -23,6 +23,8 @@ public class SwitchEX {
             case "F" :
             System.out.println("F 학점입니다.");
             break;
+            default :
+            System.out.println("잘못 입력하셨습니다.");
         }
 
     }
