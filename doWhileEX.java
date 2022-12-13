@@ -9,6 +9,7 @@ public class doWhileEX {
             System.out.print("\n"); // 반복. 처음 지정한 10부터 시작해 20 미만의 정수를 출력함 (2)
         
         } while (x < 20); //while이 20보다 작을 동안 (1)
+        // x > 20으로 설정할 경우 x = 10만 출력함. 
     }
     
 }
