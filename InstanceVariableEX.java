@@ -4,14 +4,14 @@ public class InstanceVariableEX {
     public void addition() {
         int a = 10;
         int b = 20;
-        c = a + b;
+        c = a + b; // 위에서 정의한 것을
         System.out.println(a + "와 " + b + "의 합은 " + c + "이다.");
     }
     
     public void difference() {
         int x = 150;
         int y = 100;
-        c = x - y;
+        c = x - y; // 아래 메소드에서도 쓸 수 있다
         System.out.println(x + "와 " + y + "의 차는 " + c + "이다.");
     }
 
